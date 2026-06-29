@@ -1,5 +1,5 @@
 const BASE_URL =
-  "http://localhost:5000/api/tasks";
+  "http://localhost:5001/api/tasks";
 
 export const getTasks = async () => {
   const res = await fetch(BASE_URL);
